@@ -4,8 +4,8 @@ provider "aws" {
 
 locals {
   default = {
-    Team = "security-teams"
-    CreationDate = "date-${formatdate("DDMMYYYY",timestamp())}"
+    Team         = "security-teams"
+    CreationDate = "date-${formatdate("DDMMYYYY", timestamp())}"
   }
 }
 
