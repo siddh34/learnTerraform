@@ -38,3 +38,9 @@ terraform.rc
 
 # env
 .env
+
+# .pem
+*.pem
+*.txt
+
+.DS_Store
